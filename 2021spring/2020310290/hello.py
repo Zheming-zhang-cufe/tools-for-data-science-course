@@ -20,7 +20,7 @@ def inply(m):
             return v
     print("大体数字是="+"2**"+str(b)+"+"+"3**"+str(v)+"+"+str(m-2**b-3**v))
     
-m=6
+m=int(input("put the number in :  "))
 n=number(m)
 k=multiply(n)
 inply(k)
